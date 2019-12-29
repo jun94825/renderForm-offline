@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <!-- Vue.js -->
+    <script src="./js/vue.min.js"></script>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/renderForm.css" />
+  </head>
+  <body>
+    <div id="app">
+      <render-form ref="apple"></render-form>
+    </div>
+
+    <script>
+      const eventBus = new Vue();
+    </script>
+
+    <script src="./js/renderForm.bundle.js"></script>
+  </body>
+</html>
